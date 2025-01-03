@@ -18,12 +18,7 @@ struct TimerView: View {
             Button(action: {
                 timerManager.start()
             }, label: {
-                Text("スタート")
-                    .foregroundStyle(.red)
-                    .padding(.vertical, 20)
-                    .padding(.horizontal, 40)
-                    .background(.yellow)
-                    .cornerRadius(10)
+                ExtractedView(label: "スタート", buttonColor: .yellow, textColor: .black)
             })
         }
         .padding()
@@ -32,4 +27,19 @@ struct TimerView: View {
 
 #Preview {
     TimerView()
+}
+
+struct ExtractedView: View {
+    var label: String
+    var buttonColor: Color
+    var textColor: Color
+    
+    var body: some View {
+        Text(label)
+            .foregroundStyle(textColor)
+            .padding(.vertical, 20)
+            .padding(.horizontal, 40)
+            .background(buttonColor)
+            .cornerRadius(10)
+    }
 }
