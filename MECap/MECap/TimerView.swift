@@ -15,11 +15,32 @@ struct TimerView: View {
             Text(String(format: "%0.1f" ,timerManager.seconds))
                 .font(.custom("", size: 50))
             
-            Button(action: {
-                timerManager.start()
-            }, label: {
-                ExtractedView(label: "スタート", buttonColor: .yellow, textColor: .black)
-            })
+            
+            if timerManager.mode == .stop {
+                Button(action: {
+                    timerManager.start()
+                }, label: {
+                    ExtractedView(label: "Start", buttonColor: .yellow, textColor: .black)
+                })
+            } else if timerManager.mode == .start {
+                Button(action: {
+                    timerManager.pause()
+                }, label: {
+                    ExtractedView(label: "Pause", buttonColor: .yellow, textColor: .blue)
+                })
+            } else if timerManager.mode == .pause {
+                Button(action: {
+                    timerManager.start()
+                }, label: {
+                    ExtractedView(label: "Start", buttonColor: .yellow, textColor: .black)
+                })
+                
+                Button(action: {
+                    timerManager.stopAndReset()
+                }, label: {
+                    ExtractedView(label: "Finish", buttonColor: .red, textColor: .black)
+                })
+            }
         }
         .padding()
     }
@@ -38,7 +59,7 @@ struct ExtractedView: View {
         Text(label)
             .foregroundStyle(textColor)
             .padding(.vertical, 20)
-            .padding(.horizontal, 40)
+            .padding(.horizontal, 90)
             .background(buttonColor)
             .cornerRadius(10)
     }
