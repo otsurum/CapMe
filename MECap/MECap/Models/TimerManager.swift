@@ -20,18 +20,16 @@ class TimerManager: ObservableObject {
     }
     
     func start() {
-        if timer != nil {} else {
-            // timerがnilの場合
-            mode = .start
-            timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
-                self.seconds += 0.1
-            }
+        mode = .start
+        timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
+            self.seconds += 0.1
         }
     }
     
     func stopAndReset() {
         if timer != nil {
             timer?.invalidate()
+            timer = nil // 終了したタイマーを消去
             seconds = 0
             mode = .stop // TimerModeをstopに変更
             lapTimes.removeAll() // ラップタイムの記録を消去
