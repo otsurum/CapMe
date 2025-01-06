@@ -11,6 +11,7 @@ class TimerManager: ObservableObject {
     @Published var seconds = 0.0
     @Published var mode: timerMode = .stop
     var timer: Timer?
+    @Published var lapTimes = [Double]()
     
     enum timerMode {
         case start
@@ -32,7 +33,8 @@ class TimerManager: ObservableObject {
         if timer != nil {
             timer?.invalidate()
             seconds = 0
-            mode = .stop
+            mode = .stop // TimerModeをstopに変更
+            lapTimes.removeAll() // ラップタイムの記録を消去
         }
     }
     
@@ -40,6 +42,14 @@ class TimerManager: ObservableObject {
         if timer != nil {
             timer?.invalidate()
             mode = .pause
+        }
+    }
+    
+    // 新しいタイマーを起動して一つ前のタイマーとの差をとる
+    func spreadRap() {
+        // timerプロパティに値があるかつ、TimerModeがstartかどうかをチェック
+        if timer != nil && mode == .start {
+            lapTimes.append(seconds)
         }
     }
 }

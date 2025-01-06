@@ -28,6 +28,12 @@ struct TimerView: View {
                 }, label: {
                     ExtractedView(label: "Pause", buttonColor: .yellow, textColor: .blue)
                 })
+                
+                Button(action: { timerManager.spreadRap()
+                }, label: {
+                    ExtractedView(label: "ラップ", buttonColor: .blue, textColor:  .black)
+                })
+                
             } else if timerManager.mode == .pause {
                 Button(action: {
                     timerManager.start()
@@ -41,6 +47,12 @@ struct TimerView: View {
                     ExtractedView(label: "Finish", buttonColor: .red, textColor: .black)
                 })
             }
+            
+            NavigationStack {
+                List(timerManager.lapTimes, id: \.self) { lapTime in
+                    Text(String(format: "%0.1f" ,lapTime))
+                }
+            }.navigationTitle("ラップタイム")
         }
         .padding()
     }
