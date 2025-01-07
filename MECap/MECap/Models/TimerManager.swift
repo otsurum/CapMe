@@ -8,7 +8,7 @@
 import Foundation
 
 class TimerManager: ObservableObject {
-    @Published var seconds = 0.0
+    @Published var seconds: Double = 0.0
     @Published var mode: timerMode = .stop
     var timer: Timer?
     @Published var lapTimes = [Double]()
@@ -21,6 +21,7 @@ class TimerManager: ObservableObject {
     
     func start() {
         mode = .start
+
         timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
             self.seconds += 0.1
         }

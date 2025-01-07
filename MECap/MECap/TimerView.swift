@@ -12,7 +12,7 @@ struct TimerView: View {
     
     var body: some View {
         VStack {
-            Text(String(format: "%0.1f" ,timerManager.seconds))
+            Text(timerManager.seconds.formattedTime())
                 .font(.custom("", size: 50))
             
             
