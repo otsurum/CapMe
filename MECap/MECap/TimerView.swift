@@ -50,7 +50,7 @@ struct TimerView: View {
             
             NavigationStack {
                 List(timerManager.lapTimes, id: \.self) { lapTime in
-                    Text(String(format: "%0.1f" ,lapTime))
+                    Text(lapTime.formattedTime())
                 }
             }.navigationTitle("ラップタイム")
         }
