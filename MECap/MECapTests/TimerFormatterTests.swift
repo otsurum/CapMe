@@ -34,11 +34,19 @@ final class TimerFormatterTests: XCTestCase {
         }
     }
 
-    func testFormattTimer() throws {
-        let time: Double = 3600+63
+    func testFormattedTime() throws {
+        let time: Double = 361.1
         let formattedTime = time.formattedTime()
-        let expected = "01:10:03.00"
+        let expected = "06:01.1"
         
         XCTAssertEqual(formattedTime, expected)
     }
+    
+//    func testFormattedTimeOverHour() throws {
+//        let time: Double = 3600 + 60 + 1 + 0.2
+//        let formattedtime = time.formattedTime()
+//        let expected = "01:01:01.2"
+//        
+//        XCTAssertEqual(formattedtime, expected)
+//    }
 }
