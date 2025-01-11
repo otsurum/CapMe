@@ -51,4 +51,26 @@ class TimerManager: ObservableObject {
             lapTimes.append(seconds)
         }
     }
+    
+    func leadLapTime() -> [String] {
+        let countsOfLapTimes = lapTimes.count
+        
+        if countsOfLapTimes < 1 {
+            return []
+        } else if countsOfLapTimes == 1 {
+            return lapTimes.map { $0.formattedTime() }
+        }
+        
+        var returnedCollection = [String]()
+        if let firstLapTime = lapTimes.first {
+            returnedCollection.append(firstLapTime.formattedTime())
+        }
+        
+        let copiedLapTimes = lapTimes
+        let differentTimes = zip(copiedLapTimes, copiedLapTimes.dropFirst()).map { $1 - $0 }
+        
+        returnedCollection += differentTimes.map { $0.formattedTime() }
+        
+        return returnedCollection
+    }
 }
