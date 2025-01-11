@@ -11,7 +11,8 @@ import SwiftUI
 struct MECapApp: App {
     var body: some Scene {
         WindowGroup {
-            TimerView()
+            EntryView()
+                .environmentObject(EventManager())
         }
     }
 }
