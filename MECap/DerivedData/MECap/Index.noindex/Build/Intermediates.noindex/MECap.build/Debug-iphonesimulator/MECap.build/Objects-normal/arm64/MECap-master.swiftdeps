@@ -1,0 +1,16 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "ed53b21a76f23cc2d29cb91426b7893d9b5e2da99d00b17cd061664905a5f0bd"
+build_start_time: [1737034625, 655275000]
+build_end_time: [1737034625, 844328000]
+inputs:
+  ? "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1737034622, 714218201]
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/CreateEventView.swift": [1737034197, 969046129]
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/EventView.swift": [1737034197, 969274043]
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/Extensions/Double.swift": [1737034197, 969540955]
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/LapTimeView.swift": [1737034227, 431715151]
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/MECapApp.swift": [1737034197, 970268024]
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/MainUI/EntryView.swift": [1737034197, 970514751]
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/Models/EventManager.swift": [1737034197, 970770925]
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/Models/TimerManager.swift": [1737034197, 971053903]
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/TimerView.swift": [1737034374, 834177127]

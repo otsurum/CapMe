@@ -1,0 +1,108 @@
+{
+  "" : {
+    "diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/MECap-master.dia",
+    "emit-module-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/MECap-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/MECap-master-emit-module.dia",
+    "swift-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/MECap-master.swiftdeps"
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/CreateEventView.swift" : {
+    "const-values" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/CreateEventView.swiftconstvalues",
+    "dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/CreateEventView.d",
+    "diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/CreateEventView.dia",
+    "index-unit-output-path" : "/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/CreateEventView.o",
+    "llvm-bc" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/CreateEventView.bc",
+    "object" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/CreateEventView.o",
+    "swift-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/CreateEventView.swiftdeps",
+    "swiftmodule" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/CreateEventView~partial.swiftmodule"
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/EventView.swift" : {
+    "const-values" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventView.swiftconstvalues",
+    "dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventView.d",
+    "diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventView.dia",
+    "index-unit-output-path" : "/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventView.o",
+    "llvm-bc" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventView.bc",
+    "object" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventView.o",
+    "swift-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventView.swiftdeps",
+    "swiftmodule" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventView~partial.swiftmodule"
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/Extensions/Double.swift" : {
+    "const-values" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/Double.swiftconstvalues",
+    "dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/Double.d",
+    "diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/Double.dia",
+    "index-unit-output-path" : "/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/Double.o",
+    "llvm-bc" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/Double.bc",
+    "object" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/Double.o",
+    "swift-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/Double.swiftdeps",
+    "swiftmodule" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/Double~partial.swiftmodule"
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/LapTimeView.swift" : {
+    "const-values" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/LapTimeView.swiftconstvalues",
+    "dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/LapTimeView.d",
+    "diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/LapTimeView.dia",
+    "index-unit-output-path" : "/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/LapTimeView.o",
+    "llvm-bc" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/LapTimeView.bc",
+    "object" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/LapTimeView.o",
+    "swift-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/LapTimeView.swiftdeps",
+    "swiftmodule" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/LapTimeView~partial.swiftmodule"
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/MECapApp.swift" : {
+    "const-values" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/MECapApp.swiftconstvalues",
+    "dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/MECapApp.d",
+    "diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/MECapApp.dia",
+    "index-unit-output-path" : "/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/MECapApp.o",
+    "llvm-bc" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/MECapApp.bc",
+    "object" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/MECapApp.o",
+    "swift-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/MECapApp.swiftdeps",
+    "swiftmodule" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/MECapApp~partial.swiftmodule"
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/MainUI/EntryView.swift" : {
+    "const-values" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EntryView.swiftconstvalues",
+    "dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EntryView.d",
+    "diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EntryView.dia",
+    "index-unit-output-path" : "/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EntryView.o",
+    "llvm-bc" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EntryView.bc",
+    "object" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EntryView.o",
+    "swift-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EntryView.swiftdeps",
+    "swiftmodule" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EntryView~partial.swiftmodule"
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/Models/EventManager.swift" : {
+    "const-values" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventManager.swiftconstvalues",
+    "dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventManager.d",
+    "diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventManager.dia",
+    "index-unit-output-path" : "/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventManager.o",
+    "llvm-bc" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventManager.bc",
+    "object" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventManager.o",
+    "swift-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventManager.swiftdeps",
+    "swiftmodule" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/EventManager~partial.swiftmodule"
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/Models/TimerManager.swift" : {
+    "const-values" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerManager.swiftconstvalues",
+    "dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerManager.d",
+    "diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerManager.dia",
+    "index-unit-output-path" : "/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerManager.o",
+    "llvm-bc" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerManager.bc",
+    "object" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerManager.o",
+    "swift-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerManager.swiftdeps",
+    "swiftmodule" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerManager~partial.swiftmodule"
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/TimerView.swift" : {
+    "const-values" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerView.swiftconstvalues",
+    "dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerView.d",
+    "diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerView.dia",
+    "index-unit-output-path" : "/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerView.o",
+    "llvm-bc" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerView.bc",
+    "object" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerView.o",
+    "swift-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerView.swiftdeps",
+    "swiftmodule" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Build/Intermediates.noindex/MECap.build/Debug-iphonesimulator/MECap.build/Objects-normal/arm64/TimerView~partial.swiftmodule"
+  }
+}

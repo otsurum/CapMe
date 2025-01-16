@@ -1,0 +1,15 @@
+{
+  "" : {
+    "dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-maccatalyst/MECapUITests.build/Objects-normal/arm64/MECapUITests-master.d",
+    "diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-maccatalyst/MECapUITests.build/Objects-normal/arm64/MECapUITests-master.dia",
+    "emit-module-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-maccatalyst/MECapUITests.build/Objects-normal/arm64/MECapUITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-maccatalyst/MECapUITests.build/Objects-normal/arm64/MECapUITests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-maccatalyst/MECapUITests.build/Objects-normal/arm64/MECapUITests-master.swiftdeps"
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECapUITests/MECapUITests.swift" : {
+
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECapUITests/MECapUITestsLaunchTests.swift" : {
+
+  }
+}

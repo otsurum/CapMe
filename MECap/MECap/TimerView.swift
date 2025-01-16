@@ -34,7 +34,7 @@ struct TimerView: View {
                 Button(action: {
                     timerManager.spreadRap()
                 }, label: {
-                    ExtractedView(label: "Split Lap", buttonColor: .blue, textColor:  .black)
+                    ExtractedView(label: "Split", buttonColor: .blue, textColor: .yellow)
                 })
                 
             } else if timerManager.mode == .pause {

@@ -1,0 +1,18 @@
+{
+  "" : {
+    "dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-maccatalyst/MECapTests.build/Objects-normal/arm64/MECapTests-master.d",
+    "diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-maccatalyst/MECapTests.build/Objects-normal/arm64/MECapTests-master.dia",
+    "emit-module-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-maccatalyst/MECapTests.build/Objects-normal/arm64/MECapTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-maccatalyst/MECapTests.build/Objects-normal/arm64/MECapTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-maccatalyst/MECapTests.build/Objects-normal/arm64/MECapTests-master.swiftdeps"
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECapTests/LapTimeDifferenceTests.swift" : {
+
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECapTests/MECapTests.swift" : {
+
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECapTests/TimerFormatterTests.swift" : {
+
+  }
+}

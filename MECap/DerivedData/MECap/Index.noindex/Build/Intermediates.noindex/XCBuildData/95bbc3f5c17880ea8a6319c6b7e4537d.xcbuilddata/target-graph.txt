@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+Target 'MECapUITests' in project 'MECap' (no dependencies)
+Target 'MECapUITests' in project 'MECap'
+➜ Explicit dependency on target 'MECap' in project 'MECap'
+Target 'MECapUITests' in project 'MECap'
+➜ Explicit dependency on target 'MECap' in project 'MECap'
+Target 'MECapTests' in project 'MECap' (no dependencies)
+Target 'MECapTests' in project 'MECap'
+➜ Explicit dependency on target 'MECap' in project 'MECap'
+Target 'MECapTests' in project 'MECap'
+➜ Explicit dependency on target 'MECap' in project 'MECap'
+Target 'MECap' in project 'MECap' (no dependencies)
+Target 'MECap' in project 'MECap' (no dependencies)
