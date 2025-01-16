@@ -13,7 +13,7 @@ struct EventView: View {
         // sheetのフラグ
         @State var isShowCreateEventView = false
     
-        @State var event: MyEKEvent?
+        @State var event: EKEvent?
         
         var body: some View {
             if let aEvent = eventManager.events {
@@ -21,7 +21,7 @@ struct EventView: View {
                     List(aEvent, id: \.eventIdentifier) { event in
                         Button(event.title) {
                             // 変更したいイベントをCreateEventViewに送る
-                            self.event = event as? MyEKEvent
+                            self.event = event
                             isShowCreateEventView = true
                         }
                         .contextMenu {

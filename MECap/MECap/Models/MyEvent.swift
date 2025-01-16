@@ -8,7 +8,7 @@
 import Foundation
 import EventKit
 
-class MyEKEvent: EKEvent {
+class MyEvent {
     @Published var lapTimesMemo = [String]()
     
     func noteLapTimes(lapTimes: [String]) {

@@ -12,7 +12,7 @@ struct CreateEventView: View {
     // eventの終了日時
     @State var end = Date()
     
-    @Binding var event: MyEKEvent?
+    @Binding var event: EKEvent?
     
     var body: some View {
         NavigationStack{
@@ -20,7 +20,7 @@ struct CreateEventView: View {
                 TextField("タイトル", text: $title)
                 DatePicker("開始", selection: $start)
                 if let event = event {
-                    LapTimeView(lapTimes: event.lapTimesMemo)
+                   
                 }
             }
             .toolbar {
