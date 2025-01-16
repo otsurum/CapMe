@@ -34,7 +34,7 @@ struct EventView: View {
                     }
                     .sheet(isPresented: $isShowCreateEventView) {
                         CreateEventView(event: $event)
-                            .presentationDetents([.medium])
+                            .presentationDetents([.large])
                     }
                     .toolbar {
                         ToolbarItem(placement: .principal) {
