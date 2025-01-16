@@ -19,8 +19,16 @@ struct CreateEventView: View {
             List {
                 TextField("タイトル", text: $title)
                 if let event = event {
-                    Text("開始: \(event.startDate.description)")
-                    Text("終了: \(event.endDate.description)")
+                    HStack {
+                        Text("開始")
+                        Spacer()
+                        Text(event.startDate.formatted())
+                    }
+                    HStack {
+                        Text("終了")
+                        Spacer()
+                        Text(event.endDate.formatted())
+                    }
                 } else {
                     DatePicker("開始", selection: $start)
                     DatePicker("終了", selection: $end)
