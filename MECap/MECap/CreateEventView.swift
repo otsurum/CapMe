@@ -20,13 +20,7 @@ struct CreateEventView: View {
                 TextField("タイトル", text: $title)
                 DatePicker("開始", selection: $start)
                 if let event = event {
-                    List(Array(event.lapTimesMemo.enumerated().reversed()), id: \.offset) { index, lapTime in
-                        HStack {
-                            Text("ラップ\(index+1)")
-                            Spacer()
-                            Text(lapTime)
-                        }
-                    }
+                    LapTimeView(lapTimes: event.lapTimesMemo)
                 }
             }
             .toolbar {

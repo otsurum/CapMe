@@ -50,13 +50,7 @@ struct TimerView: View {
             }
             
             NavigationStack {
-                List(Array(timerManager.leadLapTime().enumerated().reversed()), id: \.offset) { index, lapTime in
-                    HStack {
-                        Text("ラップ\(index+1)")
-                        Spacer()
-                        Text(lapTime)
-                    }
-                }
+                LapTimeView(lapTimes: timerManager.leadLapTime())
             }.navigationTitle("ラップタイム")
         }
         .padding()
