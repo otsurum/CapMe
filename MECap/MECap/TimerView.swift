@@ -10,6 +10,7 @@ import SwiftUI
 struct TimerView: View {
     @ObservedObject var timerManager = TimerManager()
     @EnvironmentObject var eventManager: EventManager
+    let date = Date()
     
     var body: some View {
         VStack {
@@ -30,7 +31,8 @@ struct TimerView: View {
                     ExtractedView(label: "Pause", buttonColor: .yellow, textColor: .blue)
                 })
                 
-                Button(action: { timerManager.spreadRap()
+                Button(action: {
+                    timerManager.spreadRap()
                 }, label: {
                     ExtractedView(label: "Split Lap", buttonColor: .blue, textColor:  .black)
                 })
@@ -43,6 +45,7 @@ struct TimerView: View {
                 })
                 
                 Button(action: {
+                    eventManager.createEvent(title: "タスク", startDate: date, endDate: date, lapTimes: timerManager.leadLapTime())
                     timerManager.stopAndReset()
                 }, label: {
                     ExtractedView(label: "Finish", buttonColor: .red, textColor: .black)

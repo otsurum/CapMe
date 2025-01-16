@@ -70,12 +70,13 @@ class EventManager: ObservableObject {
     }
     
     /// イベントの追加
-    func createEvent(title: String, startDate: Date, endDate: Date){
+    func createEvent(title: String, startDate: Date, endDate: Date, lapTimes: [String] = []){
         // 新規イベントの作成
         let event = EKEvent(eventStore: store)
         event.title = title
         event.startDate = startDate
         event.endDate = endDate
+        event.notes = encodeNotes(notes: lapTimes)
         // 保存するカレンダー
         // デフォルトカレンダー
         event.calendar = store.defaultCalendarForNewEvents
@@ -87,7 +88,7 @@ class EventManager: ObservableObject {
     }
     
     /// イベントの変更
-    func modifyEvent(event: EKEvent,title: String, startDate: Date, endDate: Date){
+    func modifyEvent(event: EKEvent,title: String, startDate: Date, endDate: Date, lapTimes: [String] = []){
         // 変更したいイベントを取得
         event.title = title
         event.startDate = startDate
@@ -108,6 +109,29 @@ class EventManager: ObservableObject {
             try store.remove(event, span: .thisEvent, commit: true)
         } catch {
             print(error.localizedDescription)
+        }
+    }
+    
+    func decodeNotes(from notes: String?) -> [String]? {
+        var decodedData: [String]?
+        
+        guard let notes = notes else { return [] }
+        do {
+            decodedData = try JSONDecoder().decode([String].self, from: Data(notes.utf8))
+        } catch {
+            print("decoding error")
+        }
+        
+        return decodedData
+    }
+    
+    private func encodeNotes(notes: [String]) -> String {
+        do {
+            let data = try JSONEncoder().encode(notes)
+            return String(data: data, encoding: .utf8) ?? ""
+        } catch {
+            print("encoding error")
+            return ""
         }
     }
 }

@@ -19,8 +19,10 @@ struct CreateEventView: View {
             List {
                 TextField("タイトル", text: $title)
                 DatePicker("開始", selection: $start)
-                if let event = event {
-                   
+                Section(header: Text("ラップタイム")) {
+                    if let event = event {
+                        LapTimeView(lapTimes: eventManager.decodeNotes(from: event.notes))
+                    }
                 }
             }
             .toolbar {
