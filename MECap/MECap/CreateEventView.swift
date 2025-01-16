@@ -12,21 +12,22 @@ struct CreateEventView: View {
     // eventの終了日時
     @State var end = Date()
     
-    @Binding var event: EKEvent?
+    @Binding var event: MyEKEvent?
     
     var body: some View {
         NavigationStack{
             List {
                 TextField("タイトル", text: $title)
                 DatePicker("開始", selection: $start)
-                //in: start...はstartより前を選択できないようにするため
-                DatePicker("終了", selection: $end, in: start...)
-                    .onChange(of: start) { newValue in
-                        // in: start...では、すでに代入済みの値は変更しないため
-                        if start > end {
-                            end = start
+                if let event = event {
+                    List(Array(event.lapTimesMemo.enumerated().reversed()), id: \.offset) { index, lapTime in
+                        HStack {
+                            Text("ラップ\(index+1)")
+                            Spacer()
+                            Text(lapTime)
                         }
                     }
+                }
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {

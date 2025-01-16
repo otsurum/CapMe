@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TimerView: View {
     @ObservedObject var timerManager = TimerManager()
+    @EnvironmentObject var eventManager: EventManager
     
     var body: some View {
         VStack {
@@ -31,7 +32,7 @@ struct TimerView: View {
                 
                 Button(action: { timerManager.spreadRap()
                 }, label: {
-                    ExtractedView(label: "ラップ", buttonColor: .blue, textColor:  .black)
+                    ExtractedView(label: "Split Lap", buttonColor: .blue, textColor:  .black)
                 })
                 
             } else if timerManager.mode == .pause {
@@ -64,6 +65,7 @@ struct TimerView: View {
 
 #Preview {
     TimerView()
+        .environmentObject(EventManager())
 }
 
 struct ExtractedView: View {
