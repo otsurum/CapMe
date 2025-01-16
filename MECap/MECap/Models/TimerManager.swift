@@ -13,6 +13,8 @@ class TimerManager: ObservableObject {
     var timer: Timer?
     @Published var lapTimes = [Double]()
     
+    private let timeInterval = 0.05
+    
     enum timerMode {
         case start
         case stop
@@ -22,8 +24,8 @@ class TimerManager: ObservableObject {
     func start() {
         mode = .start
 
-        timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
-            self.seconds += 0.1
+        timer = Timer.scheduledTimer(withTimeInterval: timeInterval, repeats: true) { timer in
+            self.seconds += self.timeInterval
         }
     }
     
