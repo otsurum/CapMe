@@ -53,7 +53,9 @@ struct TimerView: View {
             }
             
             NavigationStack {
-                LapTimeView(lapTimes: timerManager.leadLapTime())
+                List {
+                    LapTimeView(lapTimes: timerManager.leadLapTime())
+                }
             }.navigationTitle("ラップタイム")
         }
         .padding()

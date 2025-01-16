@@ -16,14 +16,13 @@ struct CreateEventView: View {
     
     var body: some View {
         NavigationStack{
-            VStack {
-                List {
-                    TextField("タイトル", text: $title)
-                    DatePicker("開始", selection: $start)
-                }
-                
-                if let lapTimes = eventManager.decodeNotes(from: event?.notes) {
-                    LapTimeView(lapTimes: lapTimes)
+            List {
+                TextField("タイトル", text: $title)
+                DatePicker("開始", selection: $start)
+                Section(header: Text("ラップタイム")) {
+                    if let lapTimes = eventManager.decodeNotes(from: event?.notes) {
+                        LapTimeView(lapTimes: lapTimes)
+                    }
                 }
             }
             .toolbar {
