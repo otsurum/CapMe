@@ -18,7 +18,13 @@ struct CreateEventView: View {
         NavigationStack{
             List {
                 TextField("タイトル", text: $title)
-                DatePicker("開始", selection: $start)
+                if let event = event {
+                    Text("開始: \(event.startDate.description)")
+                    Text("終了: \(event.endDate.description)")
+                } else {
+                    DatePicker("開始", selection: $start)
+                    DatePicker("終了", selection: $end)
+                }
                 Section(header: Text("ラップタイム")) {
                     if let lapTimes = eventManager.decodeNotes(from: event?.notes) {
                         LapTimeView(lapTimes: lapTimes)

@@ -10,7 +10,9 @@ import SwiftUI
 struct TimerView: View {
     @ObservedObject var timerManager = TimerManager()
     @EnvironmentObject var eventManager: EventManager
-    let date = Date()
+    
+    @State var startTime: Date?
+    
     
     var body: some View {
         VStack {
@@ -20,6 +22,7 @@ struct TimerView: View {
             
             if timerManager.mode == .stop {
                 Button(action: {
+                    startTime = Date()
                     timerManager.start()
                 }, label: {
                     ExtractedView(label: "Start", buttonColor: .yellow, textColor: .black)
@@ -45,7 +48,9 @@ struct TimerView: View {
                 })
                 
                 Button(action: {
-                    eventManager.createEvent(title: "タスク", startDate: date, endDate: date, lapTimes: timerManager.leadLapTime())
+                    if let startTime = startTime {
+                        eventManager.createEvent(title: "タスク", startDate: startTime, endDate: Date(), lapTimes: timerManager.leadLapTime())
+                    }
                     timerManager.stopAndReset()
                 }, label: {
                     ExtractedView(label: "Finish", buttonColor: .red, textColor: .black)
