@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class TimerManager: ObservableObject {
     @Published var seconds: Double = 0.0
@@ -15,10 +16,16 @@ class TimerManager: ObservableObject {
     
     private let timeInterval = 0.05
     
+    private var backgroundDate: Date?
+    
     enum timerMode {
         case start
         case stop
         case pause
+    }
+    
+    init() {
+        setUpBackgroundNotification()
     }
     
     func start() {
@@ -74,5 +81,38 @@ class TimerManager: ObservableObject {
         returnedCollection += differentTimes.map { $0.formattedTime() }
         
         return returnedCollection
+    }
+    
+    func setUpBackgroundNotification() {
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(didEnterBackground),
+            name: UIApplication.didEnterBackgroundNotification,
+            object: nil
+        )
+        
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(willEnterForeground),
+            name: UIApplication.willEnterForegroundNotification,
+            object: nil
+        )
+    }
+    
+    @objc private func didEnterBackground() {
+        guard mode == .start else { return }
+        backgroundDate = Date()
+        pause()
+    }
+    
+    @objc private func willEnterForeground() {
+        guard mode == .pause, let backgroundDate = backgroundDate else { return }
+        let elapsed = Date().timeIntervalSince(backgroundDate)
+        seconds += elapsed
+        start()
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
 }
