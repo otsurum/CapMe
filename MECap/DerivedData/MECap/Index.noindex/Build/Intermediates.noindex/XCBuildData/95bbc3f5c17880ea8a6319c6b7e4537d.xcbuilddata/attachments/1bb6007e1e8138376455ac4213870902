@@ -1,0 +1,39 @@
+{
+  "" : {
+    "dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-iphoneos/MECap.build/Objects-normal/arm64/MECap-master.d",
+    "diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-iphoneos/MECap.build/Objects-normal/arm64/MECap-master.dia",
+    "emit-module-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-iphoneos/MECap.build/Objects-normal/arm64/MECap-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-iphoneos/MECap.build/Objects-normal/arm64/MECap-master-emit-module.dia",
+    "swift-dependencies" : "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-iphoneos/MECap.build/Objects-normal/arm64/MECap-master.swiftdeps"
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/DerivedData/MECap/Index.noindex/Build/Intermediates.noindex/MECap.build/Debug-iphoneos/MECap.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/CreateEventView.swift" : {
+
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/EventView.swift" : {
+
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/Extensions/Double.swift" : {
+
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/LapTimeView.swift" : {
+
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/MECapApp.swift" : {
+
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/MainUI/EntryView.swift" : {
+
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/Models/EventManager.swift" : {
+
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/Models/TimerManager.swift" : {
+
+  },
+  "/Users/tsurumishun/myproject/CapMe/MECap/MECap/TimerView.swift" : {
+
+  }
+}
